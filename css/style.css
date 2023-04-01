@@ -1,0 +1,43 @@
+/* global */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* end of global */
+/* Header */
+
+.top-menu{
+    position: relative;
+    height: 53px;
+    width: 1920px;
+    background-color: #191919;
+}
+
+.left-icons{
+    position: absolute;
+    left: 603px;
+    width: 290px;
+    height: 15px;
+    top: 16px;
+}
+
+.right-icons{
+    position: absolute;
+    width: 163px;
+    height: 16px;
+    top: 12px;
+    left: 1300px;
+    border: 1px solid white;
+}
+
+.left-icons i{
+    color: #707070;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.fa-facebook{
+    margin: 0px !important;
+}
+
+/* End of Header */
