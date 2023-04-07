@@ -176,4 +176,82 @@ i {
     object-fit: contain;
     margin: 0;
     padding: 0;
+    z-index: -100;
 }
+
+.name{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 388px;
+    top: 24px;
+    width: 1170px;
+    height: 30px;
+}
+
+.header-icons {
+    display: flex;
+    justify-content:space-between;
+    width: 800px;
+}
+
+.header-icons div{
+    letter-spacing: .8px;
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-left: 12px;
+    margin-top: 8px;
+    position: relative;
+}
+
+.one{
+    left: 1.4px;
+    letter-spacing: 1.1px !important;
+    top: 1px;
+}
+
+
+.two{
+    letter-spacing: 1.2px !important;
+    left: -1.6px;
+}
+
+.three{
+    left: -4.7px;
+}
+
+.four{
+    letter-spacing: 1.1px !important;
+    left: -7px;
+    top: 1px;
+}
+
+.five{
+    left: -9px;
+    top: 1px;
+}
+
+.six{
+    letter-spacing: 1px !important;
+    left: -10px;
+    top: 1px;
+}
+
+.seven{
+    letter-spacing: 1.5px !important;
+    left: -12px;
+    top: 1px;
+}
+
+.header-name{
+    font-size: 22px;
+    letter-spacing: 2.8px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+
+
+
+
