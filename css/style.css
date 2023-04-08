@@ -170,8 +170,8 @@ i {
     background-image: url(/public/New\ Project.png);
     background-repeat: no-repeat;
     height: 900px;
-    width: 2270px;
-    margin-left: -370px !important;
+    width:2100px;
+    margin-left: -360px !important;
     margin-top: -6px !important;
     object-fit: contain;
     margin: 0;
@@ -183,7 +183,7 @@ i {
     display: flex;
     justify-content: space-between;
     position: relative;
-    left: 388px;
+    left: 317px;
     top: 24px;
     width: 1170px;
     height: 30px;
@@ -206,7 +206,7 @@ i {
 }
 
 .one{
-    left: 1.4px;
+    left: 62px;
     letter-spacing: 1.1px !important;
     top: 1px;
 }
@@ -214,44 +214,120 @@ i {
 
 .two{
     letter-spacing: 1.2px !important;
-    left: -1.6px;
+    top: 1px;
+    left: 59px;
 }
 
 .three{
-    left: -4.7px;
+    left: 55px;
 }
 
 .four{
     letter-spacing: 1.1px !important;
-    left: -7px;
+    left: 54px;
     top: 1px;
 }
 
 .five{
-    left: -9px;
+    left: 52px;
     top: 1px;
 }
 
 .six{
     letter-spacing: 1px !important;
-    left: -10px;
+    left: 51px;
     top: 1px;
 }
 
 .seven{
     letter-spacing: 1.5px !important;
-    left: -12px;
+    left: 48px;
     top: 1px;
 }
 
 .header-name{
     font-size: 22px;
-    letter-spacing: 2.8px;
+    letter-spacing: 3.3px;
     color: #ffffff;
-    font-weight: 600;
+    font-weight: 700;
+    margin-left: 60px;
 }
 
+.header-icons i{
+    color: #ffffff;
+}
 
+.header-icons span{
+    position: relative;
+}
 
+.span-one{
+    left: 57px;
+    top: 1px;
+}
 
+.span-two{
+    left: 52px;
+    top: 1px;
+}
+
+.span-three{
+    left: 48px;
+    top: 1px;
+}
+
+.span-four{
+    left: 47px;
+    top: 1px;
+}
+
+.span-five{
+    left: 46px;
+    top: 1px;
+}
+
+.span-six{
+    left: 44px;
+    top: 1px;
+}
+
+.span-seven{
+    left: 40px;
+    top: 1px;
+}
+
+.header-icons1{
+    display: flex;
+    justify-content: space-around;
+    width: 120px;
+    position: relative;
+    left: 50px;
+    top: 2px;
+}
+
+.header-icons1 i{
+    font-size: 18px !important;
+    color: #ffffff;
+    margin-top: 6px;
+}
+
+.header-icons1 div{
+    height: 30px;
+    width: 2px;
+    background: #ffffff;
+    margin-left: 3px;
+}
+
+.fa-search{
+    margin-left:-6px;
+}
+
+.fa-heart-o{
+    font-size: 20px !important;
+    margin-left: 3px;
+}
+
+.fa-shopping-cart{
+    margin-left: 2px;
+}
 
