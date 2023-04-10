@@ -152,6 +152,13 @@
     padding-bottom: 129px;
 }
 
+.backdrop{
+    background-color: red;
+    height: 560px;
+    z-index: 999999;
+    position: relative;
+}
+
 .navlist {
     width: 1170px;
     color: #ffffff;
@@ -160,7 +167,7 @@
 
 .header-heading-one {
     color: #ffffff;
-    font-weight: 1200;  
+    font-weight: 1200;
     margin-left: 8px;
     font-size: 42px;
 }
@@ -169,6 +176,12 @@
     align-items: center;
     display: flex;
     justify-content: center;
+}
+
+.backward-opa{
+    position: absolute;
+    height: 960px;
+    z-index: 8989;
 }
 
 .pasco {
@@ -197,34 +210,34 @@
     margin-left: 2px;
 }
 
-.shop-expand{
+.shop-expand {
     position: relative;
     left: 4px;
 }
 
-.home-txt{
+.home-txt {
     position: relative;
     left: 56px;
     top: 15px;
 }
 
-.home-expand{
+.home-expand {
     position: relative;
     left: 107px;
     top: -3px;
 }
 
-.components-expand{
+.components-expand {
     position: relative;
     left: 3px;
 }
 
-.feature-expand{
+.feature-expand {
     position: relative;
     left: 4px;
 }
 
-.pages-expand{
+.pages-expand {
     position: relative;
     left: 4px;
 }
@@ -405,7 +418,7 @@
     left: -2px;
 }
 
-.card1-date-container span{
+.card1-date-container span {
     position: relative;
     left: 10px;
 }
@@ -424,6 +437,8 @@
     justify-content: space-around;
     position: relative;
     top: 80px;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 
@@ -441,7 +456,7 @@
     font-size: 12px;
 }
 
-.comment-txt{
+.comment-txt {
     position: relative;
     letter-spacing: -.3px;
     top: -1px;
@@ -449,36 +464,36 @@
     font-weight: bolder;
 }
 
-.comment-txt span{
-    position:relative;
+.comment-txt span {
+    position: relative;
     left: 0px;
     top: 1px;
 }
 
-.comment-img{
+.comment-img {
     position: relative;
     left: -20px;
     top: -2px;
 }
 
-.comment-image{
-   font-size: 17px;
+.comment-image {
+    font-size: 17px;
 }
 
-.like-image{
+.like-image {
     font-size: 17px;
     position: relative;
     left: 14px;
     top: -1px;
 }
 
-.like-txt{
+.like-txt {
     position: relative;
     left: 19px;
     font-weight: bolder;
 }
 
-.like-txt span{
+.like-txt span {
     position: relative;
     left: 3px;
     letter-spacing: 1px;
