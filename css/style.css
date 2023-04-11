@@ -640,13 +640,24 @@
 
 .comments {
     display: flex;
-    margin-right: 20px;
+    margin-right: 5px;
+    margin-top: -4px;
     align-items: center;
+}
+
+.comments span{
+    margin-left: 10px;
 }
 
 .likes {
     align-items: center;
     display: flex;
+    margin-top: -4px;
+    font-weight: bold;
+}
+
+.likes span{
+    margin-left: 20px;
 }
 
 .comment-image {
