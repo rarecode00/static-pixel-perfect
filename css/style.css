@@ -945,6 +945,16 @@ body{
     justify-content: space-between;
 }
 
+.hcard1{
+    margin-top : 20px;
+     background-color: #ffffff;
+ }
+ .hcard1-image{
+     width: 258px;
+     height: 159px;     
+     background-image: url(/public/hcard1-image.png);
+     background-repeat: no-repeat;
+ }
 
 .h1-bold {
     line-height: 22px;
