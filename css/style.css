@@ -939,3 +939,28 @@ body{
 .category-list .divider{
     margin-top: 11px;
 }
+
+.horizontal-card{        
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.h1-bold {
+    line-height: 22px;
+    margin-top: 13px;
+    margin-left: 19px;   
+    font-size: 14px;
+    font-weight: 600; 
+}
+.h1-regular{
+   
+    letter-spacing: 1px;
+    margin-top: 11px;
+    font-size: 13px;
+    word-spacing: 3px;
+    line-height: 20px;
+    margin-left: 19px;
+    margin-bottom: 25px;
+
+}
