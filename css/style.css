@@ -688,7 +688,6 @@ body{
     padding-top: 13px;
     font-weight: 700;
     margin-left: 20px;
-
 }
 
 .description-container {
@@ -951,6 +950,14 @@ body{
     display: flex;
     justify-content: space-between;
     margin-left: -15px;
+}
+
+.play-cards-container {
+    position: absolute;
+    top: -47px;
+    left: 7px;
+    font-size: 48px;
+    cursor: pointer;
 }
 
 .hcard1{
