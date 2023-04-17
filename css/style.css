@@ -1111,3 +1111,41 @@ body{
     font-size: 12px;
     margin-top: 4px;
 }
+
+.sliding-bottom-image{
+    background-image: url(/public/bottom-image-1.png);
+    width: 400px;
+    height: 300px;
+}
+
+.sliding-bottom-image2{
+    background-image: url(/public/bottom-image-2.png);
+    width: 400px;
+    height: 300px;
+}
+
+.sliding-content-container1{
+    width: 400px;
+    background-color: white;
+    margin-bottom: 0px;
+}
+
+.sliding-content-txt1{
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.sliding-content-txt1 span:nth-child(1){
+    font-weight: bolder;
+    font-size:17px;
+    margin-bottom: 8.2px;
+    line-height: 23px;
+}
+
+.sliding-content-txt1 span:nth-child(2){
+    color: #616161;
+    line-height: 21px;
+    font-size: 13px;
+}
