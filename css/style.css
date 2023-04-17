@@ -1002,7 +1002,7 @@ body{
 .sliding-content-container{
     width: 257px;
     background-color: white;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .sliding-card{
@@ -1034,16 +1034,31 @@ body{
 }
 
 .sliding-divider{
-    border: 1px solid #6c6c6c;
+    border: 1px solid #ededed;
+    margin-top: 10px;
 }
 
-.card-user-image{
-    background-image: url(/public/user-2.png);
+.sliding-divider-end{
+    border: 1px solid #ededed;
+    margin-top: -40px;
+}
+
+.card-user-image-prop{
     height: 100px;
     width: 100px;
     background-repeat: no-repeat;
 }
 
+.card-user-image1{
+    background-image: url(/public/bolg2-user.png);
+}
+
+.card-user-image2{
+    background-image: url(/public/user-blog-2.png);
+}
+.card-user-image3{
+    background-image: url(/public/user-2.png);
+}
 .card-user-details{
     display: flex;
     justify-content: space-around;
