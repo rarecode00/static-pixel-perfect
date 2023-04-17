@@ -480,7 +480,12 @@ body{
     font-size: 17px;
     position: relative;
     left: 14px;
-    top: -1px;
+    /* top: -1px; */
+    margin-right: 13px;
+}
+
+.like-image span{
+    margin-top: -20px;
 }
 
 .like-txt {
