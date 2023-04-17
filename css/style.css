@@ -658,33 +658,31 @@ body{
 .activity {
     float: right;
     display: flex;
-    margin-top: 149px;
+    margin-top: 109px;
     margin-right: 20px;
-
-
 }
 
 .comments {
     display: flex;
     margin-right: 5px;
-    margin-top: 24px;
-    margin-left: 1px;
+    margin-top: 39px;
+    margin-left: 8px;
     align-items: center;
 }
 
 .comments span {
-    padding-left: 22px;
+    padding-left: 12px;
 }
 
 .likes {
     align-items: center;
     display: flex;
-    margin-top: 27px;
+    margin-top: 37px;
     font-weight: bold;
 }
 
 .likes span {
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .comment-image {
@@ -968,12 +966,6 @@ body{
     margin-top: 11px;
 }
 
-.horizontal-card{        
-    display: flex;
-    justify-content: space-between;
-    margin-left: -15px;
-}
-
 .play-cards-container {
     position: absolute;
     top: -47px;
@@ -982,94 +974,3 @@ body{
     cursor: pointer;
 }
 
-.hcard1{
-    margin-top : 20px;
-     background-color: #ffffff;
- }
- .hcard1-image{
-     width: 258px;
-     height: 159px;   
-     background-image: url(/public/hcard1-image.png);
-     background-repeat: no-repeat;
- }
-
- .hcard2-image{
-    width: 258px;
-    height: 159px;     
-    background-image: url(/public/hcard2-image.png);
-    background-repeat: no-repeat;
-    margin-left: 9px;
-}
-
-.hcard3-image{
-    width: 258px;
-    height: 159px;     
-    margin-left: 14.5px;
-    background-image: url(/public/hcard3-image.png);
-    background-repeat: no-repeat;
-}
-
-.hcard1-description{
-    /* padding-top: 112px; */
-}
-
-
-.h1-bold {
-    line-height: 23px;
-    margin-top: 15px;
-    margin-left: 19px;   
-    font-size: 14px;
-    font-weight: 600; 
-    word-spacing: 3px;
-    letter-spacing: 1px;
-}
-.h1-regular{
-    letter-spacing: 1px;
-    margin-top: 9px;
-    font-size: 14px;
-    line-height: 20px;
-    margin-left: 19px;
-    margin-bottom: 27px;
-}
-
-.hcard-author-details
-{
-    display: flex;
-    margin-left: 20px;
-    margin-bottom: 16px;
-    margin-top: 14px;
-}
-
-.hcard-activity{
-    
-    float: right;
-    display: flex;
-    margin-top: 108px;
-    margin-right: 16px;
-    color: white;
-}
-
-.hcard-caption
-{        
-    float: left;
-    margin-top: 136px;
-    margin-left: 17px;
-    font-size: 2px;
-    font-weight: 800;
-    color: white;
-}
-
-.hcard-playbtn{
-    position: absolute;
-    font-size: 48px;
-    cursor: pointer;
-    /* top: 10px; */
-    margin-top: -50px;
-    margin-left: -33px;
-}
-
-.divider1{
-    border: 1px solid red;
-    width: 200px;
-    margin-left: 1px;
-}
