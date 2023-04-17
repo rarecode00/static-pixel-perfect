@@ -1092,6 +1092,7 @@ body{
     font-size: 48px;
     margin-top: 54px;
     color: white;
+    cursor: pointer;
 }
 
 .sliding-image-txt-container{
