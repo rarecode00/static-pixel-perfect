@@ -1082,3 +1082,31 @@ body{
 .fa-ellipsis-v{
     margin-top: 30px;
 }
+
+.card-play-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.playicon{
+    font-size: 48px;
+    margin-top: 54px;
+    color: white;
+}
+
+.sliding-image-txt-container{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-top: 28px;
+}
+
+.sliding-icons{
+    display: flex;
+    color: white;
+}
+
+.sliding-image-heading{
+    font-size: 12px;
+    margin-top: 4px;
+}
