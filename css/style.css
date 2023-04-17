@@ -1002,6 +1002,7 @@ body{
 .sliding-content-container{
     width: 257px;
     background-color: white;
+    margin-bottom: 10px;
 }
 
 .sliding-card{
@@ -1030,4 +1031,8 @@ body{
     color: #616161;
     line-height: 21px;
     font-size: 13px;
+}
+
+.sliding-divider{
+    border: 1px solid #6c6c6c;
 }
