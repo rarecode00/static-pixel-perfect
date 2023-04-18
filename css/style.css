@@ -168,7 +168,6 @@ body{
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 2px;
-    /* font-weight: bolder; */
     margin-top: -4px;
     margin-left: -35px;
     font-size: 43px;
@@ -409,8 +408,8 @@ body{
     letter-spacing: .2px;
     justify-content: center;
     position: relative;
-    top: 48px;
-    left: -2px;
+    top: 52px;
+    /* left: -2px; */
 }
 
 .card1-date-container span {
@@ -600,7 +599,7 @@ body{
 }
 
 .horizontal-break {
-    border: 2px solid #e6e6e6;
+    border: 0.1px solid #e6e6e6;
 }
 
 .body-container {
@@ -650,7 +649,7 @@ body{
 
 .caption {
     float: left;
-    margin-top: 147.4px;
+    margin-top: 149px;
     margin-left: 17px;
 }
 
@@ -676,7 +675,7 @@ body{
 .likes {
     align-items: center;
     display: flex;
-    margin-top: 37px;
+    margin-top: 36px;
     font-weight: bold;
 }
 
@@ -730,13 +729,13 @@ body{
 
 .author-image {
     height: 55px;
-    margin-top: 18px;
+    margin-top: 19px;
     margin-left: 20px;
 }
 
 .author-name {
     display: grid;
-    margin-top: 6.4px;
+    margin-top: 8px;
 }
 
 .divider {
@@ -788,7 +787,7 @@ body{
     display: inline;
     color: #ffffff;
     position: relative;
-    top: 106px;
+    top: 108px;
 }
 
 .card2-txt1 {
@@ -828,7 +827,7 @@ body{
 
 .card2-description-container {
     margin-left: -54px;
-    margin-top: 9px;
+    margin-top: 10px;
     margin-bottom: 15px;
     line-height: 20px;
     font-size: 14px;
@@ -1147,5 +1146,9 @@ body{
 .sliding-content-txt1 span:nth-child(2){
     color: #616161;
     line-height: 21px;
-    font-size: 13px;
+    font-size: 15px;
+}
+
+.sliding-divider{
+    border: 1px solid #ededed;
 }
